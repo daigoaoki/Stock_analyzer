@@ -883,7 +883,7 @@ if AIOpt:
                             high=df['High'],
                             low=df['Low'],
                             close=df['Close'],
-                            name=Ticker))
+                            name=Opt_Ticker))
 
              # グラフのレイアウトを設定
             fig.update_layout(title='Total chart for ' + Opt_Ticker,
